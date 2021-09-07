@@ -1,0 +1,22 @@
+{
+  "name": "global-module-test",
+  "version": "1.0.0",
+  "description": "A repository to test global module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@test/global-module": "^1.0.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
