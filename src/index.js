@@ -1,4 +1,5 @@
-import '@test/global-module';
+import {varWrapper} from '@test/global-module';
 
-console.log(window.globalTestVar);
-window.globalTestFunc(true);
+console.log(`globalTestVar: ${globalTestVar}`);
+globalTestFunc(true);
+console.log(`varWrapper: ${varWrapper}`);
